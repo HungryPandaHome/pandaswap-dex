@@ -3,7 +3,7 @@ pragma solidity >=0.8.4 <0.9.0;
 
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
-contract ERC20 {
+contract PeripheryERC20 {
     using SafeMath for uint;
 
     string public constant name = 'Test Token';
