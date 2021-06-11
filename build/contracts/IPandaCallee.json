@@ -30,7 +30,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"pandaCall\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/C/Users/skyne/Dev/work/skynet/HungryPandaHome/pandaswap/contracts/core/interfaces/IPandaCallee.sol\":\"IPandaCallee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/skyne/Dev/work/skynet/HungryPandaHome/pandaswap/contracts/core/interfaces/IPandaCallee.sol\":{\"keccak256\":\"0xfc64b114936d608f6f89ddbed3f206bc752d653cabdec7976ad5c15d16b50f16\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5ebca9fa455d189ec5b5107feb082dea8af8952eaddc995ee505c5a25026a441\",\"dweb:/ipfs/QmYnbY37caBZGcTh9KDpB2xxSLMGuM4cWtVmGs3rmoJ69g\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.5+commit.a4f2e591\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"pandaCall\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/C/Users/skyne/Dev/work/skynet/HungryPandaHome/pandaswap/contracts/core/interfaces/IPandaCallee.sol\":\"IPandaCallee\"},\"evmVersion\":\"berlin\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/skyne/Dev/work/skynet/HungryPandaHome/pandaswap/contracts/core/interfaces/IPandaCallee.sol\":{\"keccak256\":\"0xfc64b114936d608f6f89ddbed3f206bc752d653cabdec7976ad5c15d16b50f16\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5ebca9fa455d189ec5b5107feb082dea8af8952eaddc995ee505c5a25026a441\",\"dweb:/ipfs/QmYnbY37caBZGcTh9KDpB2xxSLMGuM4cWtVmGs3rmoJ69g\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
@@ -44,15 +44,15 @@
     "absolutePath": "/C/Users/skyne/Dev/work/skynet/HungryPandaHome/pandaswap/contracts/core/interfaces/IPandaCallee.sol",
     "exportedSymbols": {
       "IPandaCallee": [
-        1685
+        1695
       ]
     },
-    "id": 1686,
+    "id": 1696,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1673,
+        "id": 1683,
         "literals": [
           "solidity",
           ">=",
@@ -71,9 +71,9 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 1685,
+        "id": 1695,
         "linearizedBaseContracts": [
-          1685
+          1695
         ],
         "name": "IPandaCallee",
         "nameLocation": "75:12:4",
@@ -81,7 +81,7 @@
         "nodes": [
           {
             "functionSelector": "6d4117b1",
-            "id": 1684,
+            "id": 1694,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -89,17 +89,17 @@
             "nameLocation": "103:9:4",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1682,
+              "id": 1692,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1675,
+                  "id": 1685,
                   "mutability": "mutable",
                   "name": "sender",
                   "nameLocation": "121:6:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1684,
+                  "scope": 1694,
                   "src": "113:14:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -108,7 +108,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1674,
+                    "id": 1684,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "113:7:4",
@@ -122,12 +122,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 1677,
+                  "id": 1687,
                   "mutability": "mutable",
                   "name": "amount0",
                   "nameLocation": "134:7:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1684,
+                  "scope": 1694,
                   "src": "129:12:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -136,7 +136,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1676,
+                    "id": 1686,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "129:4:4",
@@ -149,12 +149,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 1679,
+                  "id": 1689,
                   "mutability": "mutable",
                   "name": "amount1",
                   "nameLocation": "148:7:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1684,
+                  "scope": 1694,
                   "src": "143:12:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -163,7 +163,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1678,
+                    "id": 1688,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "143:4:4",
@@ -176,12 +176,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 1681,
+                  "id": 1691,
                   "mutability": "mutable",
                   "name": "data",
                   "nameLocation": "172:4:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1684,
+                  "scope": 1694,
                   "src": "157:19:4",
                   "stateVariable": false,
                   "storageLocation": "calldata",
@@ -190,7 +190,7 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 1680,
+                    "id": 1690,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
                     "src": "157:5:4",
@@ -205,19 +205,19 @@
               "src": "112:65:4"
             },
             "returnParameters": {
-              "id": 1683,
+              "id": 1693,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "186:0:4"
             },
-            "scope": 1685,
+            "scope": 1695,
             "src": "94:93:4",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 1686,
+        "scope": 1696,
         "src": "65:124:4",
         "usedErrors": []
       }
@@ -228,15 +228,15 @@
     "absolutePath": "/C/Users/skyne/Dev/work/skynet/HungryPandaHome/pandaswap/contracts/core/interfaces/IPandaCallee.sol",
     "exportedSymbols": {
       "IPandaCallee": [
-        1685
+        1695
       ]
     },
-    "id": 1686,
+    "id": 1696,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1673,
+        "id": 1683,
         "literals": [
           "solidity",
           ">=",
@@ -255,9 +255,9 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 1685,
+        "id": 1695,
         "linearizedBaseContracts": [
-          1685
+          1695
         ],
         "name": "IPandaCallee",
         "nameLocation": "75:12:4",
@@ -265,7 +265,7 @@
         "nodes": [
           {
             "functionSelector": "6d4117b1",
-            "id": 1684,
+            "id": 1694,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -273,17 +273,17 @@
             "nameLocation": "103:9:4",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1682,
+              "id": 1692,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1675,
+                  "id": 1685,
                   "mutability": "mutable",
                   "name": "sender",
                   "nameLocation": "121:6:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1684,
+                  "scope": 1694,
                   "src": "113:14:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -292,7 +292,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1674,
+                    "id": 1684,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "113:7:4",
@@ -306,12 +306,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 1677,
+                  "id": 1687,
                   "mutability": "mutable",
                   "name": "amount0",
                   "nameLocation": "134:7:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1684,
+                  "scope": 1694,
                   "src": "129:12:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -320,7 +320,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1676,
+                    "id": 1686,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "129:4:4",
@@ -333,12 +333,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 1679,
+                  "id": 1689,
                   "mutability": "mutable",
                   "name": "amount1",
                   "nameLocation": "148:7:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1684,
+                  "scope": 1694,
                   "src": "143:12:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -347,7 +347,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1678,
+                    "id": 1688,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "143:4:4",
@@ -360,12 +360,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 1681,
+                  "id": 1691,
                   "mutability": "mutable",
                   "name": "data",
                   "nameLocation": "172:4:4",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1684,
+                  "scope": 1694,
                   "src": "157:19:4",
                   "stateVariable": false,
                   "storageLocation": "calldata",
@@ -374,7 +374,7 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 1680,
+                    "id": 1690,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
                     "src": "157:5:4",
@@ -389,19 +389,19 @@
               "src": "112:65:4"
             },
             "returnParameters": {
-              "id": 1683,
+              "id": 1693,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "186:0:4"
             },
-            "scope": 1685,
+            "scope": 1695,
             "src": "94:93:4",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 1686,
+        "scope": 1696,
         "src": "65:124:4",
         "usedErrors": []
       }
@@ -410,11 +410,11 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.8.4+commit.c7e474f2.Emscripten.clang"
+    "version": "0.8.5+commit.a4f2e591.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-06-11T07:30:39.838Z",
+  "updatedAt": "2021-06-11T09:03:34.369Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

@@ -2,12 +2,12 @@
 pragma solidity >=0.8.4 <0.9.0;
 
 import './interfaces/IPandaERC20.sol';
-import './libraries/SafeMath.sol';
+import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
 contract PandaERC20 is IPandaERC20 {
     using SafeMath for uint;
 
-    string public constant name = 'Pancake LPs';
+    string public constant name = 'Panda LPs';
     string public constant symbol = 'Cake-LP';
     uint8 public constant decimals = 18;
     uint  public override totalSupply;
@@ -18,7 +18,6 @@ contract PandaERC20 is IPandaERC20 {
     // keccak256("Permit(address owner,address spender,uint256 value,uint256 nonce,uint256 deadline)");
     bytes32 public constant override PERMIT_TYPEHASH = 0x6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9;
     mapping(address => uint) public override nonces;
-
 
     constructor(){
         uint chainId;
@@ -54,8 +53,10 @@ contract PandaERC20 is IPandaERC20 {
     }
 
     function _transfer(address from, address to, uint value) private {
-        balanceOf[from] = balanceOf[from].sub(value);
-        balanceOf[to] = balanceOf[to].add(value);
+        uint oldBalance = balanceOf[from];
+        require(oldBalance >= value,"ballance to low");
+        balanceOf[from] = oldBalance - value;
+        balanceOf[to] = balanceOf[to] + value;
         emit Transfer(from, to, value);
     }
 
