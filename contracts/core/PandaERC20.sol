@@ -8,7 +8,7 @@ contract PandaERC20 is IPandaERC20 {
     using SafeMath for uint;
 
     string public constant name = 'Panda LPs';
-    string public constant symbol = 'Cake-LP';
+    string public constant symbol = 'Panda-LP';
     uint8 public constant decimals = 18;
     uint  public override totalSupply;
     mapping(address => uint) public override balanceOf;

@@ -44,15 +44,15 @@
     "absolutePath": "/C/Users/skyne/Dev/work/skynet/HungryPandaHome/pandaswap/contracts/core/interfaces/IPandaCallee.sol",
     "exportedSymbols": {
       "IPandaCallee": [
-        1695
+        1456
       ]
     },
-    "id": 1696,
+    "id": 1457,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1683,
+        "id": 1444,
         "literals": [
           "solidity",
           ">=",
@@ -63,7 +63,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "32:31:4"
+        "src": "32:31:2"
       },
       {
         "abstract": false,
@@ -71,36 +71,36 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 1695,
+        "id": 1456,
         "linearizedBaseContracts": [
-          1695
+          1456
         ],
         "name": "IPandaCallee",
-        "nameLocation": "75:12:4",
+        "nameLocation": "75:12:2",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "6d4117b1",
-            "id": 1694,
+            "id": 1455,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "pandaCall",
-            "nameLocation": "103:9:4",
+            "nameLocation": "103:9:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1692,
+              "id": 1453,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1685,
+                  "id": 1446,
                   "mutability": "mutable",
                   "name": "sender",
-                  "nameLocation": "121:6:4",
+                  "nameLocation": "121:6:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1694,
-                  "src": "113:14:4",
+                  "scope": 1455,
+                  "src": "113:14:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -108,10 +108,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1684,
+                    "id": 1445,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "113:7:4",
+                    "src": "113:7:2",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -122,13 +122,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1687,
+                  "id": 1448,
                   "mutability": "mutable",
                   "name": "amount0",
-                  "nameLocation": "134:7:4",
+                  "nameLocation": "134:7:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1694,
-                  "src": "129:12:4",
+                  "scope": 1455,
+                  "src": "129:12:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -136,10 +136,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1686,
+                    "id": 1447,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "129:4:4",
+                    "src": "129:4:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -149,13 +149,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1689,
+                  "id": 1450,
                   "mutability": "mutable",
                   "name": "amount1",
-                  "nameLocation": "148:7:4",
+                  "nameLocation": "148:7:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1694,
-                  "src": "143:12:4",
+                  "scope": 1455,
+                  "src": "143:12:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -163,10 +163,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1688,
+                    "id": 1449,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "143:4:4",
+                    "src": "143:4:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -176,13 +176,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1691,
+                  "id": 1452,
                   "mutability": "mutable",
                   "name": "data",
-                  "nameLocation": "172:4:4",
+                  "nameLocation": "172:4:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1694,
-                  "src": "157:19:4",
+                  "scope": 1455,
+                  "src": "157:19:2",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -190,10 +190,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 1690,
+                    "id": 1451,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "157:5:4",
+                    "src": "157:5:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -202,41 +202,41 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "112:65:4"
+              "src": "112:65:2"
             },
             "returnParameters": {
-              "id": 1693,
+              "id": 1454,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "186:0:4"
+              "src": "186:0:2"
             },
-            "scope": 1695,
-            "src": "94:93:4",
+            "scope": 1456,
+            "src": "94:93:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 1696,
-        "src": "65:124:4",
+        "scope": 1457,
+        "src": "65:124:2",
         "usedErrors": []
       }
     ],
-    "src": "32:158:4"
+    "src": "32:158:2"
   },
   "legacyAST": {
     "absolutePath": "/C/Users/skyne/Dev/work/skynet/HungryPandaHome/pandaswap/contracts/core/interfaces/IPandaCallee.sol",
     "exportedSymbols": {
       "IPandaCallee": [
-        1695
+        1456
       ]
     },
-    "id": 1696,
+    "id": 1457,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1683,
+        "id": 1444,
         "literals": [
           "solidity",
           ">=",
@@ -247,7 +247,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "32:31:4"
+        "src": "32:31:2"
       },
       {
         "abstract": false,
@@ -255,36 +255,36 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 1695,
+        "id": 1456,
         "linearizedBaseContracts": [
-          1695
+          1456
         ],
         "name": "IPandaCallee",
-        "nameLocation": "75:12:4",
+        "nameLocation": "75:12:2",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "6d4117b1",
-            "id": 1694,
+            "id": 1455,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "pandaCall",
-            "nameLocation": "103:9:4",
+            "nameLocation": "103:9:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1692,
+              "id": 1453,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1685,
+                  "id": 1446,
                   "mutability": "mutable",
                   "name": "sender",
-                  "nameLocation": "121:6:4",
+                  "nameLocation": "121:6:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1694,
-                  "src": "113:14:4",
+                  "scope": 1455,
+                  "src": "113:14:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -292,10 +292,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1684,
+                    "id": 1445,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "113:7:4",
+                    "src": "113:7:2",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -306,13 +306,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1687,
+                  "id": 1448,
                   "mutability": "mutable",
                   "name": "amount0",
-                  "nameLocation": "134:7:4",
+                  "nameLocation": "134:7:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1694,
-                  "src": "129:12:4",
+                  "scope": 1455,
+                  "src": "129:12:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -320,10 +320,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1686,
+                    "id": 1447,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "129:4:4",
+                    "src": "129:4:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -333,13 +333,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1689,
+                  "id": 1450,
                   "mutability": "mutable",
                   "name": "amount1",
-                  "nameLocation": "148:7:4",
+                  "nameLocation": "148:7:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1694,
-                  "src": "143:12:4",
+                  "scope": 1455,
+                  "src": "143:12:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -347,10 +347,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1688,
+                    "id": 1449,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "143:4:4",
+                    "src": "143:4:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -360,13 +360,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1691,
+                  "id": 1452,
                   "mutability": "mutable",
                   "name": "data",
-                  "nameLocation": "172:4:4",
+                  "nameLocation": "172:4:2",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1694,
-                  "src": "157:19:4",
+                  "scope": 1455,
+                  "src": "157:19:2",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -374,10 +374,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 1690,
+                    "id": 1451,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "157:5:4",
+                    "src": "157:5:2",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -386,27 +386,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "112:65:4"
+              "src": "112:65:2"
             },
             "returnParameters": {
-              "id": 1693,
+              "id": 1454,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "186:0:4"
+              "src": "186:0:2"
             },
-            "scope": 1695,
-            "src": "94:93:4",
+            "scope": 1456,
+            "src": "94:93:2",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 1696,
-        "src": "65:124:4",
+        "scope": 1457,
+        "src": "65:124:2",
         "usedErrors": []
       }
     ],
-    "src": "32:158:4"
+    "src": "32:158:2"
   },
   "compiler": {
     "name": "solc",
@@ -414,7 +414,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-06-11T09:03:34.369Z",
+  "updatedAt": "2021-06-11T09:58:19.771Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
