@@ -1,6 +1,5 @@
 node_modules/
 .secret
-migrations/
 old/
 pgit
 deployments.json
