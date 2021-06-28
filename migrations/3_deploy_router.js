@@ -10,6 +10,7 @@ module.exports = async function (deployer, _network, addresses) {
     const factory = await PandaFactory.deployed();
     switch (_network) {
         case "development":
+        case "ganache":
             // deploy WETH9
             await deployer.deploy(WETH9);
             const weth9 = await WETH9.deployed();
